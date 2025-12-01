@@ -286,16 +286,16 @@ flowchart
         B4[其他半日]
         BB@{ shape: braces, label: "自由活動"}
     end
-    subgraph FUKUOKA-AIRPORT
-        direction LR
-        Z1[福岡機場國內線大樓]
-        Z2[福岡機場國際線大樓]
-        X@{ shape: braces, label: "國內線大樓是採買回程伴手禮的好地方" }
+    subgraph FUKUOKA AIRPORT-福岡空港
+        X[福岡機場國內線大樓]
+        Y[福岡機場國際線大樓]
+        XX@{ shape: braces, label: "...a" }
+        YY@{ shape: braces, label: "...b" }
     end
     HOTEL --> 景點-純參考
     景點-純參考 -->  HOTEL
-    HOTEL --> FUKUOKA-AIRPORT
-    Z1 --> Z2
+    HOTEL --> X
+    X --> Y
 ```
 
 **重點**
