@@ -17,7 +17,7 @@
 title: 第一天(2026-01-18 星期日)
 ---
 flowchart
-    subgraph FUKUOKA AIRPORT - 福岡空港
+    subgraph FUKUOKA AIRPORT-福岡空港
         A[福岡機場國際線大樓]
         B[福岡機場國內線大樓]
         W@{ shape: braces, label: "..." }
