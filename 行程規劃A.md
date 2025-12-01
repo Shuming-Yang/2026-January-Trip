@@ -289,8 +289,8 @@ flowchart
     subgraph FUKUOKA AIRPORT-福岡空港
         X[福岡機場國內線大樓]
         Y[福岡機場國際線大樓]
-        XX@{ shape: braces, label: "...a" }
-        YY@{ shape: braces, label: "...b" }
+        XX@{ shape: braces, label: "福岡機場國內線大樓採買" }
+        YY@{ shape: braces, label: "預備登機" }
     end
     HOTEL --> 景點-純參考
     景點-純參考 -->  HOTEL
