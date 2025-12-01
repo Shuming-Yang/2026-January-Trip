@@ -279,7 +279,8 @@ flowchart
         direction TB
         B1[福岡城半日]
         B2[柳川半日]
-        B3[其他半日]
+        B3[福岡市科學館（六本松）]
+        B4[其他半日]
         BB@{ shape: braces, label: "自由活動"}
     end
     subgraph FUKUOKA-AIRPORT
