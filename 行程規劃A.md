@@ -264,6 +264,37 @@ flowchart
 
 ### 2.6 第六天(2026-01-23 星期五)
 
+```mermaid
+---
+title: 第六天(2026-01-23 星期五)
+---
+flowchart
+    subgraph HOTEL
+        A[住宿Check out]
+        A1@{ shape: braces, label: "行李寄放"}
+    end
+    subgraph 景點-純參考
+        direction TB
+        B1[福岡城半日]
+        B2[柳川半日]
+        B3[其他半日]
+        BB@{ shape: braces, label: "自由活動"}
+    end
+    subgraph FUKUOKA-AIRPORT
+        direction LR
+        Z1[福岡機場國內線大樓]
+        Z2[福岡機場國際線大樓]
+        X@{ shape: braces, label: "國內線大樓是採買回程伴手禮的好地方" }
+    end
+    HOTEL --> 景點-純參考
+    景點-純參考 -->  HOTEL
+    HOTEL --> FUKUOKA-AIRPORT
+    Z1 --> Z2
+```
+
+**重點**
+- 睡醒退房後的悠閒行程
+
 [回到頁首](#2行程規劃)
 
 [回到上層](./index.md)
