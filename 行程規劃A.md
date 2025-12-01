@@ -148,7 +148,7 @@ flowchart
 ```
 
 **重點**
-- 早上需要在九點抵達動物園 才比較能夠買到早上的叢林巴士票
+- 早上需要在八點半抵達動物園 才比較能夠買到早上的叢林巴士票
 - 如果旅館有包車旅遊套餐的話可以考慮直接購買
 - 其他時間為自由活動時間
 - 方案比較與費用分析 (成人) (Google Gemini協助查詢)
@@ -170,6 +170,36 @@ flowchart
 ---
 
 ### 2.4 第四天(2026-01-21 星期三)
+
+```mermaid
+---
+title: 第四天(2026-01-21 星期三)
+---
+flowchart
+    subgraph HOTEL
+        A[別府住宿]
+        A1@{ shape: braces, label: "別府駅前往由布院<br>巴士：龜之井巴士-亀の井バス<br>路線:36號 志高湖經由湯布院"}
+        A2@{ shape: braces, label: "上車地點:別府站西口3號月台<br>下車地點:由布院站前巴士中心"}
+        A2@{ shape: braces, label: "出發時間：08:20, 抵達由布院時間：09:18"}
+    end
+    subgraph JR Yufu
+        B[由布院車站]
+        B1@{ shape: braces, label: "自由活動"}
+        B2@{ shape: braces, label: "別府駅前往由布院<br>巴士：龜之井巴士-亀の井バス<br>路線:36號 志高湖經由湯布院"}
+        B3@{ shape: braces, label: "上車地點:別府站西口3號月台<br>下車地點:由布院站前巴士中心"}
+    end
+    subgraph JR HAKATA CITY
+        C[博多車站]
+        C1@{ shape: braces, label: "..." }
+    end
+    A --> |龜之井巴士 - 亀の井バス<br>58min<br>車資約 1100 日圓| B
+    B --> |由布院之森4 YUFUINNO MORI 4<br>15:56出發<br>18:10抵達博多| C
+```
+
+**重點**
+- 本日主要為由布院散策
+- 由布院之森觀光列車體驗
+- 傍晚抵達博多車站 自由活動
 
 [回到頁首](#2行程規劃)
 
