@@ -111,7 +111,6 @@ flowchart
 - 回到別府站購買巴士一日卷（或是不買 直接搭乘付費）前往溫泉區參觀 可以在別府站先用中餐
 - 傍晚一樣搭巴士回別府旅館 用餐 旅館休憩 自由活動
 - 本日行程以悠閒為主 可自由活動規劃想去的地方
-- **可以考慮改住宿溫泉區旅館並輔以早晚餐方案 放鬆享受一晚**
 
 [回到頁首](#2行程規劃)
 
@@ -120,6 +119,38 @@ flowchart
 ---
 
 ### 2.3 第三天(2026-01-20 星期二)
+
+```mermaid
+---
+title: 第三天(2026-01-20 星期二)
+---
+flowchart
+    subgraph HOTEL-Start
+        A[別府住宿]
+        A1@{ shape: braces, label: "需要早起" }
+    end
+    subgraph 九州自然動物園 - Kyushu African Safari
+        B[九州自然動物園<br>Kyushu African Safari]
+        B1@{ shape: braces, label: "別府駅前往九州自然動物園<br>巴士：龜之井巴士-亀の井バス<br>路線號碼41號 或 32/32A號 以站牌顯示為準"}
+        B2@{ shape: braces, label: "上車地點:別府站西口3號月台<br>下車地點:九州自然動物公園站終點站"}
+    end
+    subgraph JR Beppu
+        C[別府車站]
+        C1@{ shape: braces, label: "自由活動" }
+    end
+    subgraph HOTEL-End
+        D[別府住宿]
+        D1@{ shape: braces, label: "自由活動" }
+    end
+    A --> |龜之井巴士 - 亀の井バス<br>45~50min<br>車資約 900 - 980 日圓| B
+    B --> |龜之井巴士 - 亀の井バス<br>45~50min<br>車資約 900 - 980 日圓| C
+    C --> |步行| D
+```
+
+**重點**
+- 早上需要在九點抵達動物園 才比較能夠買到早上的叢林巴士票
+- 如果旅館有包車旅遊套餐的話可以考慮直接購買
+- 其他時間為自由活動時間
 
 [回到頁首](#2行程規劃)
 
