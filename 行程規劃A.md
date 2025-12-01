@@ -176,7 +176,7 @@ flowchart
 title: 第四天(2026-01-21 星期三)
 ---
 flowchart
-    subgraph HOTEL
+    subgraph HOTEL-Start
         A[別府住宿]
         A1@{ shape: braces, label: "別府駅前往由布院<br>巴士：龜之井巴士-亀の井バス<br>路線:36號 志高湖經由湯布院"}
         A2@{ shape: braces, label: "上車地點:別府站西口3號月台<br>下車地點:由布院站前巴士中心"}
@@ -192,8 +192,13 @@ flowchart
         C[博多車站]
         C1@{ shape: braces, label: "..." }
     end
+    subgraph HOTEL-End
+        D[住宿]
+        D1@{ shape: braces, label: "..." }
+    end
     A --> |龜之井巴士 - 亀の井バス<br>58min<br>車資約 1100 日圓| B
     B --> |由布院之森4 YUFUINNO MORI 4<br>15:56出發<br>18:10抵達博多| C
+    C --> |福岡市鐵| D
 ```
 
 **重點**
