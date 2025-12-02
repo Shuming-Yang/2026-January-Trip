@@ -134,7 +134,7 @@ title: 第三天(2026-01-20 星期二)
 flowchart
     subgraph HOTEL-Start
         A[別府住宿]
-        A1@{ shape: braces, label: "需要早起" }
+        A1@{ shape: braces, label: "早起逛溫泉區" }
     end
     subgraph JR Beppu
         C[別府車站]
