@@ -87,7 +87,7 @@ flowchart
     end
     subgraph 包車旅遊
         subgraph 九州自然動物園
-            B[購票<br>視購票結果決定是否遊玩]
+            B[購票<br>視購票結果決定是否早上遊玩]
             B1@{ shape: braces, label: "如果有訂到午前的叢林列車 則直接遊園 否則就訂三點多的叢林列車 出圓蓋章 出發前往由布院" }
         end
         subgraph 由布院
