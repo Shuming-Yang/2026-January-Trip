@@ -136,7 +136,7 @@ flowchart
         A[別府住宿]
         A1@{ shape: braces, label: "早起逛溫泉區" }
     end
-    subgraph JR Beppu
+    subgraph JR-Beppu
         C[別府車站]
         C1@{ shape: braces, label: "自由活動" }
     end
@@ -149,9 +149,9 @@ flowchart
         E[小倉住宿]
         E1@{ shape: braces, label: "自由活動" }
     end
-    A --> |龜之井巴士 - 亀の井バス<br>45~50min<br>車資約 900 - 980 日圓| B
-    B --> |龜之井巴士 - 亀の井バス<br>45~50min<br>車資約 900 - 980 日圓| C
-    C --> |步行| D
+    HOTEL-Start --> |巴士或計程車| JR-Beppu
+    JR-Beppu --> |JR SONIC 音速號| HOTEL-End
+    HOTEL-End --> |步行| 小倉散策
 ```
 
 **重點**
