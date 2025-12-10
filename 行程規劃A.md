@@ -358,36 +358,52 @@ sequenceDiagram
 ### 2.6 第六天(2026-01-23 星期五)
 
 ```mermaid
----
-title: 第六天(2026-01-23 星期五)
----
-flowchart
-    subgraph HOTEL
-        A[住宿Check out]
-        A1@{ shape: braces, label: "行李寄放"}
+sequenceDiagram
+    autonumber
+    title: 第六天(2026-01-23 星期五)
+    box lightyellow 住宿
+    Note over A1: 行李寄放(Check Out)
+    participant A1 as 博多新大谷飯店
+    participant A2 as 渡邊通站
     end
-    subgraph 景點-純參考
-        direction TB
-        B1[福岡城半日]
-        B2[柳川半日]
-        B3[福岡市科學館（六本松）]
-        B4[其他半日]
-        BB@{ shape: braces, label: "自由活動"}
+    box lightgreen 景點
+    participant B as 福岡市科學館（六本松）
     end
-    subgraph FUKUOKA AIRPORT-福岡空港
-        X[福岡機場國內線大樓]
-        Y[福岡機場國際線大樓]
-        XX@{ shape: braces, label: "福岡機場國內線大樓採買" }
-        YY@{ shape: braces, label: "預備登機" }
+    box lightblue 福岡
+    participant C1 as 博多站
+    participant C2 as 福岡空港
     end
-    HOTEL --> 景點-純參考
-    景點-純參考 -->  HOTEL
-    HOTEL --> X
-    X --> Y
+
+    A1 ->> A2: 步行
+    A2 ->> B: 福岡市鐵
+    Note over B: 午餐自由安排
+    B ->> A2: 福岡市鐵
+    A2 ->> A1: 步行
+    Note over A1: 領取行李
+    A1 ->> A2: 步行
+    A2 ->> C1: 福岡市鐵
+    C1 ->> C2: 福岡市鐵
+```
+
+```mermaid
+sequenceDiagram
+    autonumber
+    title: 第六天(2026-01-23 星期五)
+    box lightyellow 福岡空港
+    participant A as 國內線大樓
+    participant B as 國際線大樓
+    end
+    box lightgreen 台灣
+    participant C as 桃園空港-第一航站
+    end
+
+    A ->> B: 免費接駁車
+    B ->> C: 星宇航空JX 841<br>19:10出發<br>20:50抵達
 ```
 
 **重點**
 - 睡醒退房後的悠閒行程
+- 福岡市科學館（六本松）的行程可以視心情改為福岡城 大濠公園散步喝星巴克或其他
 - 下午五點前需要抵達福岡機場國際線大廳報到登機
 
 [回到頁首](#2行程規劃)
