@@ -1,3 +1,4 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
 # 2026-January-Trip
 
 - [2026-January-Trip](#2026-january-trip)
