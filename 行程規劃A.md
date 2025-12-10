@@ -117,20 +117,15 @@ sequenceDiagram
 sequenceDiagram
     autonumber
     title: 第三天(2026-01-20 星期二)
-    box lightgreen 別府住宿
-    participant A as 別府龜之井飯店
-    end
     box lightyellow 別府觀光
+    participant A as 別府龜之井飯店
     participant B as 別府鐵輪區地獄巡禮<Option>
-    end
-    box lightblue 別府駅
     participant C as 別府駅
     end
-    box lightgreen 小倉市區
+    box lightgreen 小倉市區觀光
     participant D as 小倉駅
     participant E as 小倉麗嘉皇家飯店
     participant F as 沿途商店街<br><br>小倉城周邊
-    participant G as 北小倉駅
     end
     Note over A: Check Out 並寄放行李
     A ->> B: 巴士(45m)<br>計程車(30m)
@@ -141,8 +136,7 @@ sequenceDiagram
     Note over E: 寄放行李<br>Check in
     E ->> F: 步行
     Note over F: 參閱**重點**
-    F ->> G: 步行
-    G ->> D: JR
+    F ->> D: 步行
     Note over D: 小倉駅周邊
     D ->> E: 步行
 
