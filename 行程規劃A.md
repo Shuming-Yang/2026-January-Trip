@@ -231,7 +231,7 @@ sequenceDiagram
     participant B as 小倉站
     participant C as 小倉麗嘉皇家飯店
     end
-    A ->> B: JR<br>15m
+    A ->> B: JR 鹿兒島本線 或 JR 山陽本線<br>15m~20m
     Note over B: 自由散策
     B ->> C: 步行<br>5m
 ```
