@@ -1,3 +1,5 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 ## 2.行程規劃
 
 - [2.行程規劃](#2行程規劃)
@@ -534,7 +536,7 @@ sequenceDiagram
 
 ### 2.7 交通費用分析
 
-[Google Cemini Pro 交通費用分析](https://gemini.google.com/share/57d3b18823d1)
+[Google Gemini Pro 交通費用分析](https://gemini.google.com/share/57d3b18823d1)
 
 ---
 
@@ -545,3 +547,27 @@ await mermaid.run({
   querySelector: '.language-mermaid',
 });
 </script>
+
+<style>
+/* 手機版面調整 (螢幕寬度小於 768px) */
+@media screen and (max-width: 768px) {
+    /* 調整整體內文大小 */
+    body, p, li, table {
+        font-size: 18px !important; /* 數字越大字越大，預設通常是 16px */
+        line-height: 1.6; /* 增加行高，讓閱讀更舒適 */
+    }
+
+    /* 調整標題大小 */
+    h1 { font-size: 28px !important; }
+    h2 { font-size: 24px !important; }
+    h3 { font-size: 22px !important; }
+
+    /* 讓 Mermaid 圖表在手機上可以左右滑動，避免擠在一起變超小 */
+    /* 讓 Mermaid 圖表區塊在手機上超出範圍時出現捲軸，而不是縮小 */
+    .mermaid {
+    overflow-x: auto; /* 允許橫向捲動 */
+    display: block;
+    min-width: 600px; /* 強制圖表保持一定寬度，這樣字就不會變小，使用者可以用手指左右滑動看 */
+    }
+}
+</style>
