@@ -378,7 +378,8 @@ sequenceDiagram
     A1 ->> A2: 步行
     A2 ->> B1: 福岡市鐵
     B1 ->> B2: 步行3m
-    Note over B1, B2: 午餐自由安排
+    Note over B2: 午餐自由安排
+    B2 ->> B1: 步行3m
     B1 ->> A2: 福岡市鐵
     A2 ->> A1: 步行
     Note over A1: 領取行李
