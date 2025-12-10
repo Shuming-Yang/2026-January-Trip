@@ -121,7 +121,7 @@ sequenceDiagram
     participant A as 別府龜之井飯店
     end
     box lightyellow 別府觀光
-    participant B as 別府鐵輪區地獄巡禮<Option>
+    participant B as 別府鐵輪區地獄巡禮 Option
     end
     box lightblue 別府駅
     participant C as 別府駅
