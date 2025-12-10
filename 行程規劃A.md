@@ -126,7 +126,7 @@ sequenceDiagram
     box lightblue 別府駅
     participant C as 別府駅
     end
-    box lightgrey 小倉市區
+    box rgb(191, 223, 255) 小倉市區
     participant D as 小倉駅
     participant E as 小倉麗嘉皇家飯店
     participant F as 沿途商店街區塊
@@ -141,15 +141,10 @@ sequenceDiagram
     Note over G: 北九州河畔步行街
     participant H as 北小倉駅
     end
-    alt 如果前一晚沒有安排別府鐵輪區地獄巡禮
-        Note over A: Check Out 並寄放行李
-        A ->> B: 巴士(45m)<br>或<br>計程車(30m)
-        Note over B: 步行參觀約1h
-        B ->> C: 巴士(45m)<br>或<br>計程車(30m)
-    else 前一晚已完成別府鐵輪區地獄巡禮
-        A ->> C: 步行約10m
-    end
-
+    Note over A: Check Out 並寄放行李
+    A ->> B: 巴士(45m)<br>計程車(30m)
+    Note over B: 步行參觀約1h
+    B ->> C: 巴士(45m)<br>計程車(30m)
     C ->> D: JR音速號 SONIC<br>1h10m~1h20m
     D ->> E: 步行約5m
     Note over E: 寄放行李<br>Check in
