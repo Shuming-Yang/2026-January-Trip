@@ -124,13 +124,15 @@ sequenceDiagram
 
 ### 2.3 第三天(2026-01-20 星期二)
 
+**前一天沒有去地獄巡禮:**
+
 ```mermaid
 sequenceDiagram
     autonumber
-    title: 第三天(2026-01-20 星期二)
+    title: 第三天(2026-01-20 星期二) 前一天沒有去地獄巡禮
     box lightyellow 別府
     participant A as 別府龜之井飯店
-    participant B as 別府鐵輪區地獄巡禮<Option>
+    participant B as 別府鐵輪區地獄巡禮
     participant C as 別府駅
     end
     box lightgreen 小倉
@@ -142,6 +144,33 @@ sequenceDiagram
     A ->> B: 巴士(45m)<br>計程車(30m)
     Note over B: 步行參觀約1h
     B ->> C: 巴士(45m)<br>計程車(30m)
+    C ->> D: JR音速號 SONIC<br>1h10m~1h20m
+    D ->> E: 步行約5m
+    Note over E: 寄放行李<br>Check in
+    E ->> F: 步行
+    Note over F: 參閱**重點**
+    F ->> D: 步行
+    Note over D: 小倉駅周邊
+    D ->> E: 步行
+
+```
+
+**前一天已經完成地獄巡禮:**
+
+```mermaid
+sequenceDiagram
+    autonumber
+    title: 第三天(2026-01-20 星期二) 前一天已經完成地獄巡禮
+    box lightyellow 別府
+    participant A as 別府龜之井飯店
+    participant C as 別府駅
+    end
+    box lightgreen 小倉
+    participant D as 小倉駅
+    participant E as 小倉麗嘉皇家飯店
+    participant F as 沿途商店街<br><br>小倉城周邊
+    end
+    A ->> C: 步行約5m
     C ->> D: JR音速號 SONIC<br>1h10m~1h20m
     D ->> E: 步行約5m
     Note over E: 寄放行李<br>Check in
