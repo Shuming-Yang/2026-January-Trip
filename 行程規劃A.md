@@ -117,12 +117,12 @@ sequenceDiagram
 sequenceDiagram
     autonumber
     title: 第三天(2026-01-20 星期二)
-    box lightyellow 別府觀光
+    box lightyellow 別府
     participant A as 別府龜之井飯店
     participant B as 別府鐵輪區地獄巡禮<Option>
     participant C as 別府駅
     end
-    box lightgreen 小倉市區觀光
+    box lightgreen 小倉
     participant D as 小倉駅
     participant E as 小倉麗嘉皇家飯店
     participant F as 沿途商店街<br><br>小倉城周邊
@@ -172,6 +172,7 @@ sequenceDiagram
   - 平價天婦羅定食 FUJISHIMA
 - 也可以由小倉搭ＪＲ去2022年開幕的北九州outlet + 北九州市立自然歷史博物館(看恐龍) + Space LABO (Kitakyushu City Science Museum)北九州科學館 如果要去建議先逛博物館後逛outlet, 不然沒力氣逛博物館
 - 第四天行程與第三天行程幾乎可以互調
+- [福寶媽 -小倉](https://gogojp.tw/kokura-trip/)
 
 [回到頁首](#2行程規劃)
 
@@ -182,31 +183,62 @@ sequenceDiagram
 ### 2.4 第四天(2026-01-21 星期三)
 
 ```mermaid
----
-title: 第四天(2026-01-21 星期三)
----
-flowchart
-    subgraph HOTEL-Start
-        A[小倉住宿]
-        A1@{ shape: braces, label: "搭乘SONIC音速號回博多"}
+sequenceDiagram
+    autonumber
+    title: 第四天(2026-01-21 星期三)
+    box lightyellow 小倉
+    participant A as 小倉麗嘉皇家飯店
+    participant B as 小倉駅
     end
-    subgraph JR HAKATA CITY
-        C[博多車站]
-        C1@{ shape: braces, label: "..." }
+    box lightgreen 下關
+    participant C as 下關駅
+    participant D as 海響館
     end
-    subgraph HOTEL-End
-        D[博多住宿]
-        D1@{ shape: braces, label: "..." }
+    box lightblue 門司
     end
-    A --> |搭乘SONIC音速號回博多| C
-    C --> |寄放行李| D
-    D --> |福岡市鐵| C
-    C --> |福岡市鐵| D
+    A ->> B: 步行約5m
+    B ->> C: JR 鹿兒島本線 或 JR 山陽本線<br>15m~20m
+    C ->> D: 車站東口（巴士站牌區）<br>SanDen 交通巴士 (サンデン交通バス)<br>選擇開往「唐戶 (Karato)」或「御裳川 (Mimosusogawa)」方向的巴士，並在**「海響館前」**站下車<br>7m~10m
+```
+
+```mermaid
+sequenceDiagram
+    autonumber
+    title: 第四天(2026-01-21 星期三)
+    box lightgreen 下關
+    participant A as 海響館
+    participant B as 唐戶渡船場（唐戸ターミナル）
+    end
+    box lightblue 門司
+    participant C as 門司港懷舊地區
+    participant D as 門司港車站
+    end
+    A ->> B: 步行5m
+    B ->> C: 關門汽船（関門汽船）<br>每 20 分鐘一班<br>5m
+    Note over C,D: 自由散策
+    C ->> D: 步行
+```
+
+```mermaid
+sequenceDiagram
+    autonumber
+    title: 第四天(2026-01-21 星期三)
+    box lightblue 門司
+    participant A as 門司港車站
+    end
+    box lightyellow 小倉
+    participant B as 小倉站
+    end
+    A ->> B: JR<br>15m
+    Note over B: 自由散策
 ```
 
 **重點**
 - 自由活動日
-- 熊本城？
+- [海響館官網](https://www.kaikyokan.com/)
+- [福寶媽-門司港景點](https://gogojp.tw/2017-05-03-414/)
+- 
+
 
 [回到頁首](#2行程規劃)
 
