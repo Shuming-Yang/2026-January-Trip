@@ -19,8 +19,8 @@
     <iframe 
         src="./行程規劃A.html" 
         style="
-            width: 50%;
-            height: 100%;
+            width: 100%;
+            height: 200%;
             border: none; 
             transform: scale(1); /* 不縮小 */
             transform-origin: 0 0;  /* 從左上角開始縮放 */
