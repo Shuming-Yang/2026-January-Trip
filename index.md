@@ -47,7 +47,8 @@
 
 ---
 
-- [去趣行程規劃 (To-Do)](https://chictrip-share.app.link/CRLecHqSYYb)
+- <a href="https://chictrip-share.app.link/CRLecHqSYYb" target="_blank">去趣行程規劃 (To-Do)</a>
+
 
 [回到頁首](#2026-january-trip)
 
