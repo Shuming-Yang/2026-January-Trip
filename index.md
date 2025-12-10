@@ -12,7 +12,36 @@
 
 ## 1.行程規劃
 
-- [行程規劃](./行程規劃A.md)
+<div style="width: 300px; height: 200px; overflow: hidden; border: 1px solid #ddd; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); border-radius: 8px; position: relative; margin: 20px 0;">
+
+    <iframe 
+        src="./行程規劃A.html" 
+        style="
+            width: 400%;       /* 4倍寬 (因為縮小 0.25) */
+            height: 400%;      /* 4倍高 */
+            border: none; 
+            transform: scale(0.25); /* 縮小成 25% */
+            transform-origin: 0 0;  /* 從左上角開始縮放 */
+            pointer-events: none;   /* 禁止滑鼠直接操作 iframe 內部的捲軸或按鈕，讓點擊事件穿透到下方的連結 */
+        ">
+    </iframe>
+
+    <a href="./行程規劃A.html" style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10; /* 確保連結在最上層 */
+        cursor: pointer;
+    " title="點擊前往：行程規劃A">
+    </a>
+    
+    <div style="position: absolute; bottom: 0; width: 100%; background: rgba(0,0,0,0.6); color: white; text-align: center; font-size: 12px; padding: 5px 0; pointer-events: none;">
+        行程規劃 A 預覽
+    </div>
+
+</div>
 
 [回到頁首](#2026-january-trip)
 
