@@ -129,9 +129,8 @@ sequenceDiagram
     box lightgreen 小倉市區
     participant D as 小倉駅
     participant E as 小倉麗嘉皇家飯店
-    participant F as 沿途商店街區塊
-    participant G as 小倉城及周邊
-    participant H as 北小倉駅
+    participant F as 沿途商店街<br>小倉城周邊
+    participant G as 北小倉駅
     end
     Note over A: Check Out 並寄放行李
     A ->> B: 巴士(45m)<br>計程車(30m)
@@ -141,11 +140,10 @@ sequenceDiagram
     D ->> E: 步行約5m
     Note over E: 寄放行李<br>Check in
     E ->> F: 步行
-    Note over F, G: 自由規劃
-    G ->> H: 步行
-    H ->> D: JR
-    Note over D: AMU PLAZA
-    Note over D: SAINTcity Shopping Mall
+    Note over F: 自由規劃
+    F ->> G: 步行
+    G ->> D: JR
+    Note over D: 小倉駅周邊
     D ->> E: 步行
 
 ```
@@ -157,14 +155,14 @@ sequenceDiagram
     緊鄰 JR 小倉站，地理位置絕佳，分為東、西館，集結服飾、美妝、生活雜貨及美食街等店鋪。東館一樓的「小倉站三十步橫丁」（小倉宿駅から三十歩横丁）美食街，更是集結八間特色九州美食，頂樓設有觀景區與空中庭園，可遠眺城市景觀，也是觀賞夜景的好地點之一。
   - SAINTcity Shopping Mall 
     距離 JR 小倉站步行約1分鐘，是集合服飾、生活雜貨、電器商品、咖啡廳與餐廳的14層樓購物中心。館內有許多台灣的人氣品牌：UNIQLO、GU、Loft、無印良品等
-- 沿途商店街區塊
+- 沿途商店街
   - 小倉中央商店街
     位於 JR 小倉站出口南側，鄰近小倉城及北九州市漫畫博物館，交通便利。從 JR 小倉站一路延伸並連接魚町銀天街，小倉中央商店街同樣設有屋簷，雨天旅行也不掃興。
   - 魚町銀天街
     全長約130公尺，商店街匯集約138間店鋪，涵蓋美食餐廳、藥妝店、服飾精品、生活雜貨等各類商家，應有盡有。自 JR「小倉」站步行僅需約3分鐘，交通便利，即使遇到雨天也能自在逛街
   - 旦過市場
     有許多適合邊走邊吃的美食，到這裡千萬別錯過福岡的傳統美食：米糠味噌燉鯖魚（ぬかみそだき）
-- 小倉城及周邊
+- 小倉城周邊
   - 小倉城
     是福岡縣唯一擁有天守閣的歷史名城，也是日本唯一全年開放至夜間的城堡，更是北九州市的知名地標，自 JR 小倉站步行約10分鐘即可抵達。
   - 小倉城庭園
