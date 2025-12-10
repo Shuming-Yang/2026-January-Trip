@@ -13,18 +13,18 @@
 ## 1.行程規劃
 
 - 行程規劃
-- 
+
 <div style="width: 100%; height: 300px; overflow: hidden; border: 1px solid #ddd; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); border-radius: 8px; position: relative; margin: 20px 0;">
 
     <iframe 
         src="./行程規劃A.html" 
         style="
-            width: 100%;
-            height: 200%;
+            width: 100%;            /* 寬度設為 100%，不需補償，保持原始寬度 */
+            height: 200%;           /* 高度設為 200%，讓它渲染出兩倍長的內容 */
             border: none; 
-            transform: scale(1); /* 不縮小 */
+            transform: scale(1, 0.5); /* 關鍵：X軸(寬)保持 1，Y軸(高) 縮小為 0.5 */
             transform-origin: 0 0;  /* 從左上角開始縮放 */
-            pointer-events: none;   /* 禁止滑鼠直接操作 iframe 內部的捲軸或按鈕，讓點擊事件穿透到下方的連結 */
+            pointer-events: none; 
         ">
     </iframe>
 
@@ -34,13 +34,13 @@
         left: 0;
         width: 100%;
         height: 100%;
-        z-index: 10; /* 確保連結在最上層 */
+        z-index: 10;
         cursor: pointer;
     " title="點擊前往：行程規劃">
     </a>
     
     <div style="position: absolute; bottom: 0; width: 100%; background: rgba(0,0,0,0.6); color: white; text-align: center; font-size: 12px; padding: 5px 0; pointer-events: none;">
-        行程規劃 預覽
+        行程規劃 預覽 (垂直壓縮視圖)
     </div>
 
 </div>
