@@ -12,7 +12,7 @@
 
 ## 1.行程規劃
 
-<div style="width: 300px; height: 200px; overflow: hidden; border: 1px solid #ddd; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); border-radius: 8px; position: relative; margin: 20px 0;">
+<div style="width: 100%; height: 300px; overflow: hidden; border: 1px solid #ddd; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); border-radius: 8px; position: relative; margin: 20px 0;">
 
     <iframe 
         src="./行程規劃A.html" 
