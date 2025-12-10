@@ -34,11 +34,11 @@
         height: 100%;
         z-index: 10; /* 確保連結在最上層 */
         cursor: pointer;
-    " title="點擊前往：行程規劃A">
+    " title="點擊前往：行程規劃">
     </a>
     
     <div style="position: absolute; bottom: 0; width: 100%; background: rgba(0,0,0,0.6); color: white; text-align: center; font-size: 12px; padding: 5px 0; pointer-events: none;">
-        行程規劃 A 預覽
+        行程規劃 預覽
     </div>
 
 </div>
