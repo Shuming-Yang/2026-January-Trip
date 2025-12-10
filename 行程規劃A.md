@@ -362,7 +362,6 @@ sequenceDiagram
     autonumber
     title: 第六天(2026-01-23 星期五)
     box lightyellow 住宿
-    Note over A1: 行李寄放(Check Out)
     participant A1 as 博多新大谷飯店
     participant A2 as 渡邊通站
     end
@@ -375,6 +374,7 @@ sequenceDiagram
     participant C2 as 福岡空港
     end
 
+    Note over A1: 行李寄放(Check Out)
     A1 ->> A2: 步行
     A2 ->> B1: 福岡市鐵
     B1 ->> B2: 步行3m
