@@ -239,8 +239,6 @@ sequenceDiagram
   - 奶油小蛋糕 SHIROYA 小倉店
   - 旦過烏龍麵
   - 平價天婦羅定食 FUJISHIMA
-- 也可以由小倉搭ＪＲ去2022年開幕的北九州outlet + 北九州市立自然歷史博物館(看恐龍) + Space LABO (Kitakyushu City Science Museum)北九州科學館 如果要去建議先逛博物館後逛outlet, 不然沒力氣逛博物館
-- 第四天行程與第三天行程幾乎可以互調
 - [福寶媽 -小倉](https://gogojp.tw/kokura-trip/)
 
 [回到頁首](#2行程規劃)
@@ -549,25 +547,31 @@ await mermaid.run({
 </script>
 
 <style>
-/* 手機版面調整 (螢幕寬度小於 768px) */
+/* 覆蓋主題預設的最大寬度，讓內容寬一點 */
+.main-content {
+    max-width: 1000px !important; /* 原本通常是 64rem，稍微加寬適合放地圖 */
+    padding: 2rem 1rem;
+}
+
+/* 確保 iframe (Google Maps) 在手機上會自動縮放 */
+iframe {
+    width: 100% !important; /* 強制寬度填滿 */
+    height: 400px; /* 統一高度 */
+    max-width: 100%;
+}
+
+/* 手機版面優化 */
 @media screen and (max-width: 768px) {
-    /* 調整整體內文大小 */
-    body, p, li, table {
-        font-size: 18px !important; /* 數字越大字越大，預設通常是 16px */
-        line-height: 1.6; /* 增加行高，讓閱讀更舒適 */
+    /* 調整主題預設的字體大小 */
+    body, .main-content {
+        font-size: 18px !important;
     }
-
-    /* 調整標題大小 */
-    h1 { font-size: 28px !important; }
-    h2 { font-size: 24px !important; }
-    h3 { font-size: 22px !important; }
-
-    /* 讓 Mermaid 圖表在手機上可以左右滑動，避免擠在一起變超小 */
-    /* 讓 Mermaid 圖表區塊在手機上超出範圍時出現捲軸，而不是縮小 */
+    
+    /* 讓 Mermaid 圖表可左右滑動 */
     .mermaid {
-    overflow-x: auto; /* 允許橫向捲動 */
-    display: block;
-    min-width: 600px; /* 強制圖表保持一定寬度，這樣字就不會變小，使用者可以用手指左右滑動看 */
+        overflow-x: auto;
+        display: block;
+        padding-bottom: 20px; /* 預留捲軸空間 */
     }
 }
 </style>
