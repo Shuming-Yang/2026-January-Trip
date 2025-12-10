@@ -367,7 +367,8 @@ sequenceDiagram
     participant A2 as 渡邊通站
     end
     box lightgreen 景點
-    participant B as 福岡市科學館（六本松）
+    participant B1 as 六本松站
+    participant B2 as 福岡市科學館
     end
     box lightblue 福岡
     participant C1 as 博多站
@@ -375,9 +376,10 @@ sequenceDiagram
     end
 
     A1 ->> A2: 步行
-    A2 ->> B: 福岡市鐵
-    Note over B: 午餐自由安排
-    B ->> A2: 福岡市鐵
+    A2 ->> B1: 福岡市鐵
+    B1 ->> B2: 步行3m
+    Note over B1, B2: 午餐自由安排
+    B1 ->> A2: 福岡市鐵
     A2 ->> A1: 步行
     Note over A1: 領取行李
     A1 ->> A2: 步行
