@@ -40,7 +40,7 @@
     </a>
     
     <div style="position: absolute; bottom: 0; width: 100%; background: rgba(0,0,0,0.6); color: white; text-align: center; font-size: 12px; padding: 5px 0; pointer-events: none;">
-        行程規劃 預覽 (垂直壓縮視圖)
+        行程規劃 預覽 點擊前往閱
     </div>
 
 </div>
