@@ -7,6 +7,7 @@
   - [2.4 第四天(2026-01-21 星期三)](#24-第四天2026-01-21-星期三)
   - [2.5 第五天(2026-01-22 星期四)](#25-第五天2026-01-22-星期四)
   - [2.6 第六天(2026-01-23 星期五)](#26-第六天2026-01-23-星期五)
+  - [2.7 交通費用分析](#27-交通費用分析)
 
 [回到上層](./index.md)
 
@@ -55,7 +56,10 @@ sequenceDiagram
 ---
 
 **Google Map 交通路線圖**
+
 <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d7074915.392954283!2d124.63751114737596!3d30.02111727134806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e4!4m5!1s0x34429fc062d215d5%3A0x70a3b690a9b5b109!2z5qGD5ZyS5biC5aSn5ZyS5Y2A6Iiq56uZ5Y2X6Lev6Ie654Gj5qGD5ZyS5ZyL6Zqb5qmf5aC0IChUUEUp!3m2!1d25.0804884!2d121.2311579!4m5!1s0x35419016426901ad%3A0x16e67f46584e1fb7!2z56aP5bKh5ZyL6Zqb5qmf5aC0IChGVUspNzc4LTEgU2hpbW91c3VpLCBIYWthdGEgV2FyZCwgRnVrdW9rYSwgODEyLTAwMDPml6XmnKw!3m2!1d33.5849988!2d130.4490906!5e0!3m2!1szh-TW!2stw!4v1765351365874!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d13293.851787676915!2d130.424970607463!3d33.593290785962466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x35419016426901ad%3A0x16e67f46584e1fb7!2z56aP5bKh5ZyL6Zqb5qmf5aC0IChGVUspNzc4LTEgU2hpbW91c3VpLCBIYWthdGEgV2FyZCwgRnVrdW9rYSwgODEyLTAwMDPml6XmnKw!3m2!1d33.5849988!2d130.4490906!4m5!1s0x354191b7e5f00001%3A0x4985fc1e78aecb1e!2z5pel5pys56aP5bKh57ij56aP5bKh5biC5Y2a5aSa5Y2AIEhha2F0YWVraWNoxavFjWdhaSwgNuKIkjE3IOWNmuWkmuermeWJjVJpY2htb25k6aOv5bqX!3m2!1d33.5880791!2d130.4221093!5e0!3m2!1szh-TW!2stw!4v1765351851203!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ---
 
@@ -114,6 +118,14 @@ sequenceDiagram
     Note over E: 進房放置行李
     Note over E: 自由規劃
 ```
+
+---
+
+**Google Map 交通路線圖**
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m46!1m12!1m3!1d425872.39010864194!2d130.79328085031548!3d33.498045508127106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m31!3e0!4m5!1s0x354191b7e5f00001%3A0x4985fc1e78aecb1e!2z5pel5pys56aP5bKh57ij56aP5bKh5biC5Y2a5aSa5Y2AIEhha2F0YWVraWNoxavFjWdhaSwgNuKIkjE3IOWNmuWkmuermeWJjVJpY2htb25k6aOv5bqX!3m2!1d33.5880791!2d130.4221093!4m5!1s0x3546a922d4029bd1%3A0xb195eec6ff51740a!2z5pel5pys5aSn5YiG57ij5a6H5L2Q5biCIEFqaW11bWFjaGkgTWluYW1paGF0YSwg5Lmd5bee6Ieq54S25YuV54mp5YWs5ZyS!3m2!1d33.350207499999996!2d131.4150208!4m5!1s0x3546ad124d94a733%3A0xdfcd3644dc34617a!2z5pel5pys5aSn5YiG57ij55Sx5biD5biCIFl1ZnVpbmNobyBLYXdha2l0YSwg55Sx5biD6Zmi6LuK56uZ5YGc6LuK5aC0!3m2!1d33.2630891!2d131.3549916!4m5!1s0x3546a72953266c13%3A0x266b87ec7bdca4e4!2z5pel5pys5aSn5YiG57ij5Yil5bqc5biCIE5vZGEsIOihgOOBruaxoOWcsOeNhCDnhKHmlpnpp5Dou4rloLQ!3m2!1d33.3272748!2d131.4788604!4m5!1s0x3546a6e9bc2e79c3%3A0xf23c3814d720b79!2z5pel5pys5aSn5YiG57ij5Yil5bqc5biCIENodW9tYWNoaSwgNSDliKXlupwg6b6c5LmL5LqV6aOv5bqX!3m2!1d33.276461999999995!2d131.499686!5e0!3m2!1szh-TW!2stw!4v1765351973321!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+---
 
 **重點**
 - 早上一早最晚七點從博多旅館出發 早餐最好前一晚在博多車站買好
@@ -188,6 +200,14 @@ sequenceDiagram
     D ->> E: 步行
 
 ```
+
+---
+
+**Google Map 交通路線示意圖**
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m64!1m12!1m3!1d425453.67699566926!2d130.8581950840312!3d33.583065794536964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m49!3e0!4m5!1s0x3546a6e9bc2e79c3%3A0xf23c3814d720b79!2z6b6c5LmL5LqV6YWS5bqXIOWIq-W6nA!3m2!1d33.276461999999995!2d131.499686!4m5!1s0x3546a72953266c13%3A0x266b87ec7bdca4e4!2z6KGA5rGg5Zyw542EIOWBnOi7iuWgtA!3m2!1d33.3272748!2d131.4788604!4m5!1s0x3546a6e7e0284e93%3A0xbd6c35908b679702!2z5Yil5bqc56uZ!3m2!1d33.2797011!2d131.5002568!4m5!1s0x3543bf4c1b6f2f3f%3A0xc17cb4fd9abaed0d!2z5bCP5YCJ56uZ!3m2!1d33.88607!2d130.88254999999998!4m5!1s0x3543bf4d0622290b%3A0x3cc115df92d941f8!2z6a2a55S66YqA5aSp6KGX!3m2!1d33.8841641!2d130.8800183!4m5!1s0x3543bf52e5a04e5f%3A0xfefdb0c98463ffe9!2z5pem6YGO5biC5aC0!3m2!1d33.8813113!2d130.87946309999998!4m5!1s0x3543b8ad94500c23%3A0x1307eedef77d6d68!2z5bCP5YCJ5Z-O!3m2!1d33.8844357!2d130.8742541!4m5!1s0x3543bf490829bddd%3A0x7902eaf5e6f9493a!2z5pel5pys56aP5bKh57ij5YyX5Lmd5bee5biC5bCP5YCJ5YyX5Y2AIEFzYW5vLCAyIENob21l4oiSMTTiiJIyIOWwj-WAiem6l-WYieeah-WutumFkuW6lw!3m2!1d33.888163!2d130.8850861!5e0!3m2!1szh-TW!2stw!4v1765352442368!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+---
 
 **重點**
 - 前一晚沒有去別府地獄巡禮的話則改為今天一早前往
@@ -282,6 +302,21 @@ sequenceDiagram
     B ->> C: 步行<br>5m
 ```
 
+---
+
+**Google Map 交通路線示意圖**
+
+小倉到海響館:
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d13239.538575273644!2d130.92906090389147!3d33.94409495221324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x3543bf4c1b6f2f3f%3A0xc17cb4fd9abaed0d!2z5pel5pys56aP5bKh57ij5YyX5Lmd5bee5biC5bCP5YCJ5YyX5Y2AIEFzYW5vLCAxIENob21l4oiSMSwg5bCP5YCJ56uZ!3m2!1d33.88607!2d130.88254999999998!4m5!1s0x3543bd996b2366d9%3A0xdc06d7e1c49219fa!2z5pel5pys5bGx5Y-j57ij5LiL6Zec5biCIEFyY2Fwb3J0LCA2IO-8lueVqjHlj7cg5rW36Z-_6aSo!3m2!1d33.9546189!2d130.9423611!5e0!3m2!1szh-TW!2stw!4v1765352590568!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+海響館到門司港:
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d6619.320737871874!2d130.94730918436485!3d33.949862416677895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x3543bd996b2366d9%3A0xdc06d7e1c49219fa!2z5pel5pys5bGx5Y-j57ij5LiL6Zec5biCIEFyY2Fwb3J0LCA2IO-8lueVqjHlj7cg5rW36Z-_6aSo!3m2!1d33.9546189!2d130.9423611!4m5!1s0x354396293e9a6fd9%3A0xf012cc176d8a09b4!2z5pel5pys56aP5bKh57ij5YyX5Lmd5bee5biC6ZaA5Y-45Y2AIE1pbmF0b21hY2hpLCA5IOmWgOWPuOa4r-ODrOODiOODrQ!3m2!1d33.9462036!2d130.9630099!5e0!3m2!1szh-TW!2stw!4v1765352663662!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+門司港回小倉:
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d52977.41438238241!2d130.8856108570202!3d33.913124372398336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x354396293e9a6fd9%3A0xf012cc176d8a09b4!2z5pel5pys56aP5bKh57ij5YyX5Lmd5bee5biC6ZaA5Y-45Y2AIE1pbmF0b21hY2hpLCA5IOmWgOWPuOa4r-ODrOODiOODrQ!3m2!1d33.9462036!2d130.9630099!4m5!1s0x3543bf4c1b6f2f3f%3A0xc17cb4fd9abaed0d!2z5pel5pys56aP5bKh57ij5YyX5Lmd5bee5biC5bCP5YCJ5YyX5Y2AIEFzYW5vLCAxIENob21l4oiSMSwg5bCP5YCJ56uZ!3m2!1d33.88607!2d130.88254999999998!5e0!3m2!1szh-TW!2stw!4v1765352757797!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+---
+
 **重點**
 - 自由活動日
 - [海響館官網](https://www.kaikyokan.com/)
@@ -349,7 +384,7 @@ sequenceDiagram
     participant C2 as 博多新大谷飯店
     end
 
-    A ->> B: 西鐵巴士44號或是46L
+    A ->> B: 西鐵巴士44號或是40L或是45號
     Note over B:博多阪急<br>AMU百貨<br>博多地下街
     B ->> C1: 福岡市鐵
     C1 ->> C2: 休憩
@@ -373,16 +408,37 @@ sequenceDiagram
     participant C2 as 博多新大谷飯店
     end
 
-    A ->> B1: 西鐵巴士46L
+    A ->> B1: 西鐵巴士40L
     Note over B1, B2:天神地下街<br>天神新光三越<br>藍瓶咖啡
     B2 ->> C1: 步行(屋台) 
     C1 ->> C2: 休憩
 ```
 
+---
+
+**Google Map 交通路線示意圖**
+
+小倉往博多:
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d212205.82950964718!2d130.56786876170804!3d33.793829147722676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x3543bf4c1b6f2f3f%3A0xc17cb4fd9abaed0d!2z5pel5pys56aP5bKh57ij5YyX5Lmd5bee5biC5bCP5YCJ5YyX5Y2AIEFzYW5vLCAxIENob21l4oiSMSwg5bCP5YCJ56uZ!3m2!1d33.88607!2d130.88254999999998!4m5!1s0x354191c7e6f9b375%3A0x2ee22b3d45b98b90!2z5pel5pys56aP5bKh57ij56aP5bKh5biC5Y2a5aSa5Y2AIOWNmuWkmumnheS4reWkruihlzEsIOWNmuWkmg!3m2!1d33.589727499999995!2d130.4207274!5e0!3m2!1szh-TW!2stw!4v1765352821809!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+博多到博多新大谷飯店:
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d6647.461077105511!2d130.40581029595765!3d33.586344931056054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x354191c7e6f9b375%3A0x2ee22b3d45b98b90!2z5pel5pys56aP5bKh57ij56aP5bKh5biC5Y2a5aSa5Y2AIOWNmuWkmumnheS4reWkruihlzEsIOWNmuWkmg!3m2!1d33.589727499999995!2d130.4207274!4m5!1s0x3541919982907677%3A0x7e4ec8d30ce7106f!2z5pel5pys56aP5bKh57ij56aP5bKh5biC5Lit5aSu5Y2AIFdhdGFuYWJlZG9yaSwgMSBDaG9tZeKIkjEgSG90ZWwgTmV3IE90YW5pIEhha2F0YSwg5Y2a5aSa5paw5aSn6LC36aOv5bqX!3m2!1d33.583091599999996!2d130.4063041!5e0!3m2!1szh-TW!2stw!4v1765352961952!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+博多新大谷飯店到福岡lalaport:
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26593.154372773268!2d130.40132543097263!3d33.575602549308755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x3541919982907677%3A0x7e4ec8d30ce7106f!2z5pel5pys56aP5bKh57ij56aP5bKh5biC5Lit5aSu5Y2AIFdhdGFuYWJlZG9yaSwgMSBDaG9tZeKIkjEgSG90ZWwgTmV3IE90YW5pIEhha2F0YSwg5Y2a5aSa5paw5aSn6LC36aOv5bqX!3m2!1d33.583091599999996!2d130.4063041!4m5!1s0x354191e79a67d911%3A0xe57737261ee4d100!2z5pel5pys56aP5bKh57ij56aP5bKh5biC5Y2a5aSa5Y2AIE5ha2EsIDYgQ2hvbWXiiJIyM-KIkjEgTGFMYXBvcnQg56aP5bKh!3m2!1d33.565704!2d130.4401153!5e0!3m2!1szh-TW!2stw!4v1765353053336!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+福岡lalaport到博多站:
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d13296.066223393533!2d130.42001131644136!3d33.57891940042629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x354191e79a67d911%3A0xe57737261ee4d100!2z5pel5pys56aP5bKh57ij56aP5bKh5biC5Y2a5aSa5Y2AIE5ha2EsIDYgQ2hvbWXiiJIyM-KIkjEgTGFMYXBvcnQg56aP5bKh!3m2!1d33.565704!2d130.4401153!4m5!1s0x354191c7e6f9b375%3A0x2ee22b3d45b98b90!2z5pel5pys56aP5bKh57ij56aP5bKh5biC5Y2a5aSa5Y2AIOWNmuWkmumnheS4reWkruihlzEsIOWNmuWkmg!3m2!1d33.589727499999995!2d130.4207274!5e0!3m2!1szh-TW!2stw!4v1765353206308!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+福岡lalaport到天神站:
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26593.391104957856!2d130.40103438097108!3d33.57483414964635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x354191e79a67d911%3A0xe57737261ee4d100!2z5pel5pys56aP5bKh57ij56aP5bKh5biC5Y2a5aSa5Y2AIE5ha2EsIDYgQ2hvbWXiiJIyM-KIkjEgTGFMYXBvcnQg56aP5bKh!3m2!1d33.565704!2d130.4401153!4m5!1s0x3541918e44e39077%3A0xe8214e0d1793b30!2z5pel5pysIOemj-WyoeecjOemj-WyoeW4guS4reWkruWMuuWkqeelnu-8kuKIkjEyLCDlpKnnpZ7pp4U!3m2!1d33.5914006!2d130.3988788!5e0!3m2!1szh-TW!2stw!4v1765353261281!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+---
+
 **重點**
 - [西鐵巴士官網](https://www.nishitetsu.jp/zh_tw/)
 - 由於 44 號巴士是一條大路線，上車時務必確認車頭或站牌資訊顯示該班車會開往 「ららぽーと福岡」（LaLaport 福岡）方向，因為部分 44 號的終點站可能不是 LaLaport
-- 46L巴士同時也有經過博多運河城
+- 40L巴士同時也有經過博多運河城
 
 **額外資訊：**
 - LaLaport 鋼彈立像：
@@ -449,6 +505,20 @@ sequenceDiagram
     A ->> B: 免費接駁車
     B ->> C: 星宇航空JX 841<br>19:10出發<br>20:50抵達
 ```
+---
+
+**Google Map 交通路線示意圖**
+
+博多新大谷飯店到福岡科學館:
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d13295.828877894028!2d130.38123696644217!3d33.58046000009752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x3541919982907677%3A0x7e4ec8d30ce7106f!2z5Y2a5aSa5paw5aSn6LC36aOv5bqXIOaXpeacrOOAkjgxMC0wMDA0IEZ1a3Vva2EsIENodW8gV2FyZCwgV2F0YW5hYmVkb3JpLCAxIENob21l4oiSMeKIkjI!3m2!1d33.583091599999996!2d130.4063041!4m5!1s0x354193a97fdf5f67%3A0x9aaf1979ab16b010!2z5pel5pys56aP5bKh57ij56aP5bKh5biC5Lit5aSu5Y2AIFJvcHBvbm1hdHN1LCA0IENob21l4oiSMuKIkjEg56aP5bKh5biC56eR5a246aSo!3m2!1d33.5774099!2d130.37823129999998!5e0!3m2!1szh-TW!2stw!4v1765353330792!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+博多新大谷飯店到福岡城:
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d13294.915841588718!2d130.38119056644518!3d33.586385898832745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x3541919982907677%3A0x7e4ec8d30ce7106f!2z5Y2a5aSa5paw5aSn6LC36aOv5bqXIOaXpeacrOOAkjgxMC0wMDA0IEZ1a3Vva2EsIENodW8gV2FyZCwgV2F0YW5hYmVkb3JpLCAxIENob21l4oiSMeKIkjI!3m2!1d33.583091599999996!2d130.4063041!4m5!1s0x354193d32689fe43%3A0x5f7b1b1a747c028a!2z5pel5pys56aP5bKh57ij56aP5bKh5biC5Lit5aSu5Y2AIEpvbmFpLCAxIOemj-WyoeWfjg!3m2!1d33.585245199999996!2d130.38321589999998!5e0!3m2!1szh-TW!2stw!4v1765353436465!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+博多新大谷飯店到福岡空港:
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d13293.992692041656!2d130.41378276644826!3d33.59237649755399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x3541919982907677%3A0x7e4ec8d30ce7106f!2z5Y2a5aSa5paw5aSn6LC36aOv5bqXIOaXpeacrOOAkjgxMC0wMDA0IEZ1a3Vva2EsIENodW8gV2FyZCwgV2F0YW5hYmVkb3JpLCAxIENob21l4oiSMeKIkjI!3m2!1d33.583091599999996!2d130.4063041!4m5!1s0x35419016426901ad%3A0x16e67f46584e1fb7!2z5pel5pys56aP5bKh57ij56aP5bKh5biC5Y2a5aSa5Y2AIFNoaW1vdXN1aSwgNzc4LTEg56aP5bKh56m65rivIChGVUsp!3m2!1d33.5849988!2d130.4490906!5e0!3m2!1szh-TW!2stw!4v1765353499049!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+---
 
 **重點**
 - 睡醒退房後的悠閒行程
@@ -462,6 +532,11 @@ sequenceDiagram
 
 ---
 
+### 2.7 交通費用分析
+
+[Google Cemini Pro 交通費用分析](https://gemini.google.com/share/57d3b18823d1)
+
+---
 
 <script type="module">
 import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.12.1/+esm';
