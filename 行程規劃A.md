@@ -177,7 +177,7 @@ sequenceDiagram
   - 旦過烏龍麵
   - 平價天婦羅定食 FUJISHIMA
 - 也可以由小倉搭ＪＲ去2022年開幕的北九州outlet + 北九州市立自然歷史博物館(看恐龍) + Space LABO (Kitakyushu City Science Museum)北九州科學館 如果要去建議先逛博物館後逛outlet, 不然沒力氣逛博物館
-
+- 第四天行程與第三天行程幾乎可以互調
 
 [回到頁首](#2行程規劃)
 
