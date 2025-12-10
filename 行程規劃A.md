@@ -129,7 +129,7 @@ sequenceDiagram
     box lightgreen 小倉市區
     participant D as 小倉駅
     participant E as 小倉麗嘉皇家飯店
-    participant F as 沿途商店街<br>小倉城周邊
+    participant F as 沿途商店街<br><br>小倉城周邊
     participant G as 北小倉駅
     end
     Note over A: Check Out 並寄放行李
@@ -140,7 +140,7 @@ sequenceDiagram
     D ->> E: 步行約5m
     Note over E: 寄放行李<br>Check in
     E ->> F: 步行
-    Note over F: 自由規劃
+    Note over F: 參閱**重點**
     F ->> G: 步行
     G ->> D: JR
     Note over D: 小倉駅周邊
