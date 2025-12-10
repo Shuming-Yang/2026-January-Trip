@@ -124,6 +124,29 @@
 
 ---
 
+<div style="
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 9999; 
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 10px; 
+    border-radius: 30px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+">
+    <span style="margin-right: 10px; font-size: 20px;">🎵</span>
+    
+    <audio controls loop preload="auto" style="height: 30px; width: 250px;">
+        <source src="./Northern_Kyushu_Six_Day_Logistical_Analysis.m4a" type="audio/mp4">
+        您的瀏覽器不支援音樂播放。
+    </audio>
+</div>
+
+---
+
 <style>
 /* 覆蓋主題預設的最大寬度，讓內容寬一點 */
 .main-content {
