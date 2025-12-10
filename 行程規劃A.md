@@ -126,7 +126,7 @@ sequenceDiagram
     box lightblue 別府駅
     participant C as 別府駅
     end
-    box rgb(191, 223, 255) 小倉市區
+    box lightgrey 小倉市區
     participant D as 小倉駅
     participant E as 小倉麗嘉皇家飯店
     participant F as 沿途商店街區塊
