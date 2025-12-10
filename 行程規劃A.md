@@ -28,13 +28,23 @@ sequenceDiagram
     participant B as 國際線大樓
     participant C as 國內線大樓
     end
+
+    A ->> B: 星宇航空JX 840<br>14:45出發<br>18:00抵達
+    B ->> C: 預計19:00出關<br>免費接駁車
+```
+
+```mermaid
+sequenceDiagram
+    autonumber
+    title: 第一天(2026-01-18 星期日)
+    box lightyellow 福岡空港
+    participant C as 國內線大樓
+    end
     box lightblue 福岡市區
     participant D as 博多車站
     participant E as Richmond飯店-博多站前
     end
 
-    A ->> B: 星宇航空JX 840<br>14:45出發<br>18:00抵達
-    B ->> C: 預計19:00出關<br>免費接駁車
     C ->> D: 福岡市鐵<br>約17min
     D ->> E: 博多車站的 筑紫口(Chikushi-guchi)出口步行<br>約5min
     Note over E: Check in
