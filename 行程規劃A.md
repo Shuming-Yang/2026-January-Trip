@@ -256,6 +256,21 @@ sequenceDiagram
 sequenceDiagram
     autonumber
     title: 第五天(2026-01-22 星期四)
+    box lightyellow 小倉
+    participant A as 小倉麗嘉皇家飯店
+    participant B as 小倉站
+    end
+    box lightblue 福岡
+    participant C as 博多車站
+    end
+    A ->> B: 步行<br>5m
+    B ->> C: 山陽新幹線 (Sanyo Shinkansen) 15~20m 2170日圓<br>特急 Sonic (音速號) 或 特急 Kirameki (閃耀號) 40m~55m 1850日圓
+```
+
+```mermaid
+sequenceDiagram
+    autonumber
+    title: 第五天(2026-01-22 星期四)
     box lightblue 福岡
     participant A as 博多車站
     end
@@ -269,10 +284,6 @@ sequenceDiagram
     A ->> B1: 計程車<br>5m~10m<br>約1,000日圓
     Note over B1: 寄放行李<Check in>
     B1 ->> C: 西鐵巴士44號<br>25m~35m<br>260日圓
-```
-
-```mermaid
-
 ```
 
 **重點**
