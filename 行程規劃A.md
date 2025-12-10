@@ -286,8 +286,57 @@ sequenceDiagram
     B1 ->> C: 西鐵巴士44號<br>25m~35m<br>260日圓
 ```
 
+**自由行簡單逛街方案 A**
+
+```mermaid
+sequenceDiagram
+    autonumber
+    title: 第五天(2026-01-22 星期四)
+    box lightgreen 商場
+    participant A as 福岡lalaport
+    end
+    box lightblue 福岡
+    participant B as 博多車站
+    end
+    box lightyellow 住宿
+    participant C1 as 渡邊通站
+    participant C2 as 博多新大谷飯店
+    end
+
+    A ->> B: 西鐵巴士44號或是46L
+    Note over B:博多阪急<br>AMU百貨<br>博多地下街
+    B ->> C1: 福岡市鐵
+    C1 ->> C2: 休憩
+```
+
+**自由行簡單逛街方案 B**
+
+```mermaid
+sequenceDiagram
+    autonumber
+    title: 第五天(2026-01-22 星期四)
+    box lightgreen 商場
+    participant A as 福岡lalaport
+    end
+    box lightblue 福岡
+    participant B1 as 天神站
+    participant B2 as 南天神站
+    end
+    box lightyellow 住宿
+    participant C1 as 渡邊通站
+    participant C2 as 博多新大谷飯店
+    end
+
+    A ->> B1: 西鐵巴士46L
+    Note over B1, B2:天神地下街<br>天神新光三越<br>藍瓶咖啡
+    B2 ->> C1: 步行(屋台) 
+    C1 ->> C2: 休憩
+```
+
 **重點**
+- [西鐵巴士官網](https://www.nishitetsu.jp/zh_tw/)
 - 由於 44 號巴士是一條大路線，上車時務必確認車頭或站牌資訊顯示該班車會開往 「ららぽーと福岡」（LaLaport 福岡）方向，因為部分 44 號的終點站可能不是 LaLaport
+- 46L巴士同時也有經過博多運河城
 
 **額外資訊：**
 - LaLaport 鋼彈立像：
@@ -297,6 +346,7 @@ sequenceDiagram
   - 白天：10:00~17:30，整點為音樂水舞秀，半點為純水舞秀。
   - 夜晚：18:00~22:00，整點和半點皆為音樂水舞秀，並結合光雕投影。
   - 鋼彈水舞秀：通常在 20:30 左右，一天僅一場 10 分鐘的結合鋼彈主題的特別表演。
+- [網友分享](https://blog.udn.com/whiteho/7458084)
 
 
 [回到頁首](#2行程規劃)
