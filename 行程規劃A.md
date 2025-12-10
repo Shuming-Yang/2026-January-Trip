@@ -52,6 +52,13 @@ sequenceDiagram
     Note over E: 自由規劃
 ```
 
+---
+
+**Google Map 交通路線圖**
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d7074915.392954283!2d124.63751114737596!3d30.02111727134806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e4!4m5!1s0x34429fc062d215d5%3A0x70a3b690a9b5b109!2z5qGD5ZyS5biC5aSn5ZyS5Y2A6Iiq56uZ5Y2X6Lev6Ie654Gj5qGD5ZyS5ZyL6Zqb5qmf5aC0IChUUEUp!3m2!1d25.0804884!2d121.2311579!4m5!1s0x35419016426901ad%3A0x16e67f46584e1fb7!2z56aP5bKh5ZyL6Zqb5qmf5aC0IChGVUspNzc4LTEgU2hpbW91c3VpLCBIYWthdGEgV2FyZCwgRnVrdW9rYSwgODEyLTAwMDPml6XmnKw!3m2!1d33.5849988!2d130.4490906!5e0!3m2!1szh-TW!2stw!4v1765351365874!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+---
+
 **重點**
 - 博多車站
   - 兌換JRPASS(如果有購買)
