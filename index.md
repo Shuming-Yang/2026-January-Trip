@@ -152,4 +152,28 @@ iframe {
         padding-bottom: 20px; /* 預留捲軸空間 */
     }
 }
+
+/* 針對大多數 GitHub Theme (Cayman, Slate, Minimal 等) 的容器 */
+.main-content, .wrapper, .markdown-body, .container {
+    max-width: 95% !important; /* 強制寬度擴展到 95% */
+    width: 95% !important;     /* 確保寬度生效 */
+    padding-left: 20px !important;  /* 稍微縮減左右留白 */
+    padding-right: 20px !important;
+    margin: 0 auto !important; /* 確保內容置中 */
+}
+
+/* 如果是電腦螢幕超大，可以設個上限以免一行字太長很難讀 */
+@media screen and (min-width: 1600px) {
+    .main-content, .wrapper, .markdown-body {
+        max-width: 1400px !important; /* 超大螢幕限制在 1400px */
+    }
+}
+
+/* 針對 header (標題區) 也同步加寬，不然會發生標題窄、內容寬的奇怪狀況 */
+.page-header {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-left: 40px !important; /* 標題區通常留多一點白比較好看 */
+    padding-right: 40px !important;
+}
 </style>
