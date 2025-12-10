@@ -121,7 +121,7 @@ sequenceDiagram
     participant A as 別府龜之井飯店
     end
     box lightyellow 別府觀光
-    participant B as 別府鐵輪區地獄巡禮 Option
+    participant B as 別府鐵輪區地獄巡禮<Option>
     end
     box lightblue 別府駅
     participant C as 別府駅
@@ -130,15 +130,9 @@ sequenceDiagram
     participant D as 小倉駅
     participant E as 小倉麗嘉皇家飯店
     participant F as 沿途商店街區塊
-    Note over F: 小倉中央商店街
-    Note over F: 魚町銀天街
-    Note over F: 旦過市場
+    Note over F: 小倉中央商店街<br>魚町銀天街<br>旦過市場
     participant G as 小倉城及周邊
-    Note over G: 小倉城
-    Note over G: 小倉城庭園
-    Note over G: 北九州市立松本清張紀念館
-    Note over G: 小倉祇園 八坂神社
-    Note over G: 北九州河畔步行街
+    Note over G: 小倉城<br>小倉城庭園<br>松本清張紀念館<br>小倉祇園 八坂神社<br>北九州河畔步行街
     participant H as 北小倉駅
     end
     Note over A: Check Out 並寄放行李
