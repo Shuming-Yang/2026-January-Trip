@@ -50,6 +50,27 @@
 - <a href="https://chictrip-share.app.link/CRLecHqSYYb" target="_blank">去趣行程規劃 (To-Do)</a>
 - [WORD版本](./2026-Japan-trip.docx)
 - ![簡介](./簡介-1.png)
+- 投映片概略
+  <object data="./Kyushu_Six_Day_Adventure.pdf" type="application/pdf" width="100%" height="600px" style="border: 1px solid #ccc;">
+
+    <div style="width: 100%; height: 600px; position: relative;">
+        
+        <iframe 
+            src="https://docs.google.com/viewer?url=shuming-yang.github.io/2026-January-Trip/Kyushu_Six_Day_Adventure.pdf&embedded=true" 
+            width="100%" 
+            height="100%" 
+            style="border: none;">
+        </iframe>
+
+        <div style="position: absolute; bottom: 10px; right: 10px; background: rgba(255,255,255,0.9); padding: 5px; border-radius: 4px;">
+             <a href="./Kyushu_Six_Day_Adventure.pdf" target="_blank" style="text-decoration: none; font-weight: bold; color: #007bff;">
+                📥 下載原始檔案
+             </a>
+        </div>
+
+    </div>
+
+</object>
 
 [回到頁首](#2026-january-trip)
 
