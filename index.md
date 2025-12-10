@@ -4,7 +4,8 @@
   - [1.景點資訊](#1景點資訊)
   - [2.行程規劃](#2行程規劃)
   - [3.相關資料](#3相關資料)
-    - [3.1 九州JR鐵路時刻表](#31-九州jr鐵路時刻表)
+    - [3.1 機票資料](#31-機票資料)
+    - [3.2 九州JR鐵路時刻表](#32-九州jr鐵路時刻表)
     - [3.2 其他資料](#32-其他資料)
 
 ---
@@ -27,7 +28,42 @@
 
 ## 3.相關資料
 
-### 3.1 九州JR鐵路時刻表
+### 3.1 機票資料
+
+| 班機日期       | 起飛機場                 | 抵達機場                | 航空公司       | 起飛時間 | 抵達時間 |
+| ------------- | ---------------------- | ---------------------- | ------------- | ------- | ------ |
+| 01月18日 星期日 | 台北 桃園機場 [第一航站]  | 福岡 福岡國際機場 [I航站] | 星宇航空 JX840  | 14:45   | 18:00  |
+| 01月23日 星期五 | 福岡 福岡國際機場 [I航站] | 台北 桃園機場 [第一航站]  | 星宇航空 JX 841 | 19:10   | 20:50  |
+
+- 亮萱
+<object data="./機票訂單-亮萱.pdf" type="application/pdf" width="100%" height="600px" style="border: 1px solid #ccc;">
+
+    <div style="width: 100%; height: 600px; position: relative;">
+        
+        <iframe 
+            src="https://docs.google.com/viewer?url=shuming-yang.github.io/2026-January-Trip/機票訂單-亮萱.pdf&embedded=true" 
+            width="100%" 
+            height="100%" 
+            style="border: none;">
+        </iframe>
+
+        <div style="position: absolute; bottom: 10px; right: 10px; background: rgba(255,255,255,0.9); padding: 5px; border-radius: 4px;">
+             <a href="./機票訂單-亮萱.pdf" target="_blank" style="text-decoration: none; font-weight: bold; color: #007bff;">
+                📥 下載原始檔案
+             </a>
+        </div>
+
+    </div>
+
+</object>
+
+- 威漢
+
+[回到頁首](#2026-january-trip)
+
+---
+
+### 3.2 九州JR鐵路時刻表
 
 <object data="./JR九州鐵路火車時刻表.pdf" type="application/pdf" width="100%" height="600px" style="border: 1px solid #ccc;">
 
