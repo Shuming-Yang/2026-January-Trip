@@ -4,6 +4,8 @@
   - [1.景點資訊](#1景點資訊)
   - [2.行程規劃](#2行程規劃)
   - [3.相關資料](#3相關資料)
+    - [3.1 JR鐵路時刻表](#31-jr鐵路時刻表)
+    - [3.2 其他資料](#32-其他資料)
 
 ---
 
@@ -25,7 +27,19 @@
 
 ## 3.相關資料
 
-[相關資料](./相關資料.md)
+### 3.1 JR鐵路時刻表
+
+<iframe 
+  src="https://docs.google.com/viewer?url=shuming-yang.github.io/2026-January-Trip/JR九州鐵路火車時刻表.pdf&embedded=true" 
+  width="100%" 
+  height="600px" 
+  style="border: none;">
+</iframe>
+
+### 3.2 其他資料
+
+  [其他資料](./相關資料.md)
+
 
 [回到頁首](#2026-january-trip)
 
