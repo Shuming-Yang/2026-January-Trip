@@ -199,7 +199,7 @@ sequenceDiagram
     end
     A ->> B: 步行約5m
     B ->> C: JR 鹿兒島本線 或 JR 山陽本線<br>15m~20m
-    C ->> D: 車站東口（巴士站牌區）<br>SanDen 交通巴士 (サンデン交通バス)<br>選擇開往「唐戶 (Karato)」或「御裳川 (Mimosusogawa)」方向的巴士，並在**「海響館前」**站下車<br>7m~10m
+    C ->> D: 車站東口（巴士站牌區）<br>SanDen 交通巴士 (サンデン交通バス)<br>選擇開往「唐戶 (Karato)」或「御裳川 (Mimosusogawa)」方向<br>在**「海響館前」**站下車<br>7m~10m
 ```
 
 ```mermaid
@@ -253,36 +253,27 @@ sequenceDiagram
 ### 2.5 第五天(2026-01-22 星期四)
 
 ```mermaid
----
-title: 第五天(2026-01-22 星期四)
----
-flowchart
-    subgraph HOTEL
-        A[住宿]
-        A1@{ shape: braces, label: "..."}
+sequenceDiagram
+    autonumber
+    title: 第五天(2026-01-22 星期四)
+    box lightyellow 小倉
+    participant A as 小倉麗嘉皇家飯店
+    participant B as 小倉站
     end
-    subgraph lalaport-商場
-        B[福岡lalaport]
-        B1@{ shape: braces, label: "自由活動"}
+    box lightblue 福岡
+    participant C as 博多車站
     end
-    subgraph 福岡市區
-        direction TB
-        C1[博多運河城]
-        C2[天神地區]
-        C3[櫛田神社＆藍瓶咖啡]
-        C4[福岡塔 福岡タワー 需要門票去展望台]
-        C5[博多站]
-        C7[其他自選]
-        CC@{ shape: braces, label: "lalaport結束後轉站自由活動" }
-    end
-    A --> |巴士單次付費：540 日圓| B
-    B --> |巴士單次付費：540 日圓| 福岡市區
-    福岡市區 --> A
+    A ->> B: 步行<br>5m
+    B ->> C: 山陽新幹線 (Sanyo Shinkansen) 15~20m 2170日圓<br>特急 Sonic (音速號) 或 特急 Kirameki (閃耀號) 40m~55m 1850日圓
+    Note over C: 博多車站先寄放行李
+```
+
+```mermaid
+
 ```
 
 **重點**
-- 本日為市區觀光行程
-- lalaport之後的行程依照喜好自行安排（應該是在中午餐後）
+- 由於 44 號巴士是一條大路線，上車時務必確認車頭或站牌資訊顯示該班車會開往 「ららぽーと福岡」（LaLaport 福岡）方向，因為部分 44 號的終點站可能不是 LaLaport
 
 **額外資訊：**
 - LaLaport 鋼彈立像：
