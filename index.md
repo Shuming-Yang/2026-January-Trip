@@ -17,10 +17,10 @@
     <iframe 
         src="./行程規劃A.html" 
         style="
-            width: 400%;       /* 4倍寬 (因為縮小 0.25) */
-            height: 400%;      /* 4倍高 */
+            width: 100%;
+            height: 100%;
             border: none; 
-            transform: scale(0.25); /* 縮小成 25% */
+            transform: scale(1); /* 不縮小 */
             transform-origin: 0 0;  /* 從左上角開始縮放 */
             pointer-events: none;   /* 禁止滑鼠直接操作 iframe 內部的捲軸或按鈕，讓點擊事件穿透到下方的連結 */
         ">
