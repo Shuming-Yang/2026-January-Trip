@@ -29,12 +29,26 @@
 
 ### 3.1 JR鐵路時刻表
 
-<iframe 
-  src="https://docs.google.com/viewer?url=shuming-yang.github.io/2026-January-Trip/JR九州鐵路火車時刻表.pdf&embedded=true" 
-  width="100%" 
-  height="600px" 
-  style="border: none;">
-</iframe>
+<object data="./JR九州鐵路火車時刻表.pdf" type="application/pdf" width="100%" height="600px" style="border: 1px solid #ccc;">
+
+    <div style="width: 100%; height: 600px; position: relative;">
+        
+        <iframe 
+            src="https://docs.google.com/viewer?url=shuming-yang.github.io/2026-January-Trip/JR九州鐵路火車時刻表.pdf&embedded=true" 
+            width="100%" 
+            height="100%" 
+            style="border: none;">
+        </iframe>
+
+        <div style="position: absolute; bottom: 10px; right: 10px; background: rgba(255,255,255,0.9); padding: 5px; border-radius: 4px;">
+             <a href="./JR九州鐵路火車時刻表.pdf" target="_blank" style="text-decoration: none; font-weight: bold; color: #007bff;">
+                📥 下載原始檔案
+             </a>
+        </div>
+
+    </div>
+
+</object>
 
 ### 3.2 其他資料
 
